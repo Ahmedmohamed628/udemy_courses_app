@@ -3,7 +3,7 @@ import 'package:udemy_courses_project/home/cart_screen.dart';
 import 'package:udemy_courses_project/home/explore_screen/explore_screen.dart';
 import 'package:udemy_courses_project/home/my_account_screen.dart';
 import 'package:udemy_courses_project/home/my_courses_screen.dart';
-import 'package:udemy_courses_project/home/search_screen.dart';
+import 'package:udemy_courses_project/home/search_screen/search_screen.dart';
 import '../my_theme.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,10 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   backgroundColor: Colors.white,
-      //   elevation: 1,
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 4,
+        toolbarHeight: MediaQuery.of(context).size.height * 0.03,
+      ),
       backgroundColor: MyTheme.whiteColor,
       bottomNavigationBar: BottomAppBar(
         color: MyTheme.whiteColor,

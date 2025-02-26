@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:udemy_courses_project/home/search_screen/category_search%20_tab.dart';
+import 'package:udemy_courses_project/home/search_screen/list_tile_category.dart';
 import 'package:udemy_courses_project/my_theme.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -9,13 +11,8 @@ class SearchScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 4,
-      ),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
         child: Column(
           children: [
             SearchAnchor(
@@ -68,9 +65,22 @@ class SearchScreen extends StatelessWidget {
                 }).toList();
               },
             ),
-          ],
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.03,
+          ),
+          CategorySearchTab(),
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.03,
+          ),
+          ListTileCategory(title: 'Development', onTapFunction: () {}),
+          ListTileCategory(title: 'Finance & Accounting', onTapFunction: () {}),
+          ListTileCategory(title: 'Design', onTapFunction: () {}),
+          ListTileCategory(title: 'It & Software', onTapFunction: () {}),
+          ListTileCategory(title: 'Offer Productivity', onTapFunction: () {}),
+          ListTileCategory(title: 'Marketing', onTapFunction: () {}),
+          ListTileCategory(title: 'Health & fitness', onTapFunction: () {}),
+        ],
         ),
-      ),
     );
   }
 }
