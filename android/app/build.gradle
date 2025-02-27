@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.udemy_courses_project"
-    compileSdk = 34
+    compileSdk = flutter.targetSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -25,8 +25,8 @@ android {
         applicationId = "com.example.udemy_courses_project"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = 26
-        targetSdk = 33
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         multiDexEnabled true
