@@ -1,0 +1,2 @@
+F:/android studio/udemy_courses_project/android/app/.cxx/Debug/2x3y4t22/x86_64/CMakeFiles/edit_cache.dir
+F:/android studio/udemy_courses_project/android/app/.cxx/Debug/2x3y4t22/x86_64/CMakeFiles/rebuild_cache.dir

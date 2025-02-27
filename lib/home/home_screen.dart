@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:udemy_courses_project/home/cart_screen.dart';
 import 'package:udemy_courses_project/home/explore_screen/explore_screen.dart';
 import 'package:udemy_courses_project/home/my_account_screen.dart';
-import 'package:udemy_courses_project/home/my_courses_screen.dart';
+import 'package:udemy_courses_project/home/my_courses_screen/my_courses_screen.dart';
 import 'package:udemy_courses_project/home/search_screen/search_screen.dart';
 import '../my_theme.dart';
 

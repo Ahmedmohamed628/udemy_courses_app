@@ -14,4 +14,7 @@ class MyTheme {
   static Color outlineTextFormColor = Color(0xffCBC8C8);
   static Color searchBarColor = Color(0xffEFF3F6);
   static Color yellowColor = Color(0xffF9E200);
+  static Color containerTextYellowColor = Color(0xffF3CB55);
+  static Color containerTextGreenColor = Color(0xff24CB80);
+  static Color containerColor = Color(0xffF9F9F9);
 }
